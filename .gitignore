@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Dependencies
+/lib/
+/target/
+
+# IDE files
+/.idea/
+/.vscode/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+
+# Maven specific
+log/
+target/
+.idea/
+
+# Gradle specific
+.gradle/
+build/
+
+# Eclipse specific
+bin/
+.settings/
+.project
+.classpath
+
+# NetBeans specific
+/nbproject/private/
+/build/
+
+# IntelliJ specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Operating System files
+.DS_Store
+Thumbs.db
