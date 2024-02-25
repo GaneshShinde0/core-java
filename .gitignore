@@ -28,6 +28,7 @@ bin/
 .settings/
 .project
 .classpath
+*/.settings/
 
 # NetBeans specific
 /nbproject/private/
@@ -38,6 +39,9 @@ bin/
 *.ipr
 *.iws
 .idea/
+intellijoutput/
+*/.metadata/
+*/.idea/
 
 # Logs and databases
 *.log
