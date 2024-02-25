@@ -1,0 +1,17 @@
+
+p	java:S106*"9Replace this use of System.out or System.err by a logger.(Šƒ÷œøÿÿÿÿ8ÜÒÁÙ1Hï	RMAJORZ
+CODE_SMELL
+s	java:S125)"<This block of commented-out lines of code should be removed.(é±Òïùÿÿÿÿ8ÜÒÁÙ1Hğ	RMAJORZ
+CODE_SMELL
+ƒ	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä›ƒ½8ÜÒÁÙ1Hó	RMINORZ
+CODE_SMELL
+r
+java:S3518P"CMake sure this expression can't be zero before doing this division.(úéê8ÜÒÁÙ1Hô	RCRITICALZBUG
+ƒ	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â°Ÿ¨8ÜÒÁÙ1Hò	RMINORZ
+CODE_SMELL
+ˆ	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úá¥¼üÿÿÿÿ8ÜÒÁÙ1Hñ	RMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜8ªÅÙ1H™
+RMINORZ
+CODE_SMELL

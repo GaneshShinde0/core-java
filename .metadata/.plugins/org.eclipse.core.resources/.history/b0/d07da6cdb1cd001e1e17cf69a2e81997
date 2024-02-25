@@ -1,0 +1,15 @@
+package com.ganesh.basic.advance.controlflow;
+
+public class ParsingValues {
+	
+	public static void main(String[] args) {
+		String currentYear = "2022";
+		System.out.println(getInputFromScanner(0))
+	}
+	public static String getInputFromConsole(int currentYear) {
+		return "";
+	}
+	public static String getInputFromScanner(int currentYear) {
+		return "";
+	}
+}

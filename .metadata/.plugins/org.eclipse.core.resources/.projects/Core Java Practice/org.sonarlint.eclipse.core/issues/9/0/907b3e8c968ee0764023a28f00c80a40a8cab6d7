@@ -1,0 +1,37 @@
+
+O
+java:S1643."Use a StringBuilder instead.(À„÷8•ĞèÙ1HàRMINORZ
+CODE_SMELL
+T
+java:S1643Q"Use a StringBuilder instead.(¹†Ä€ÿÿÿÿÿ8•ĞèÙ1HæRMINORZ
+CODE_SMELL
+T
+java:S1643"Use a StringBuilder instead.(•·»çşÿÿÿÿ8•ĞèÙ1HŞRMINORZ
+CODE_SMELL
+O
+java:S1643M"Use a StringBuilder instead.(é¿ä8•ĞèÙ1HåRMINORZ
+CODE_SMELL
+‡
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(íÓ©]8•ĞèÙ1HÑRCRITICALZ
+CODE_SMELL
+T
+java:S16430"Use a StringBuilder instead.(¹†Ä€ÿÿÿÿÿ8•ĞèÙ1HâRMINORZ
+CODE_SMELL
+O
+java:S1643J"Use a StringBuilder instead.(é¿ä8•ĞèÙ1HãRMINORZ
+CODE_SMELL
+O
+java:S1643["Use a StringBuilder instead.(Ë›§8•ĞèÙ1HèRMINORZ
+CODE_SMELL
+T
+java:S1643%"Use a StringBuilder instead.(öè±ıÿÿÿÿ8•ĞèÙ1HßRMINORZ
+CODE_SMELL
+T
+java:S1643'"Use a StringBuilder instead.(¹†Ä€ÿÿÿÿÿ8•ĞèÙ1HáRMINORZ
+CODE_SMELL
+T
+java:S1643Y"Use a StringBuilder instead.(èÒŸıÿÿÿÿ8•ĞèÙ1HäRMINORZ
+CODE_SMELL
+T
+java:S1643i"Use a StringBuilder instead.(»¶¥ùÿÿÿÿ8•ĞèÙ1HçRMINORZ
+CODE_SMELL

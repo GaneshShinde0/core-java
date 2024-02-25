@@ -1,0 +1,61 @@
+
+g
+java:S2864z"4Iterate over the "entrySet" instead of the "keySet".(™Ô ³8 ŠûÙ1H“RMAJORZ
+CODE_SMELL
+ 
+java:S13194"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(“°’´8 ŠûÙ1H¢RMINORZ
+CODE_SMELL
+y
+java:S1126)"AReplace this if-then-else statement by a single return statement.(Í½ñİùÿÿÿÿ8 ŠûÙ1H÷RMINORZ
+CODE_SMELL
+o	java:S125²"<This block of commented-out lines of code should be removed.(Ï¥»•8 ŠûÙ1H—RMAJORZ
+CODE_SMELL
+ˆ
+java:S3776b"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(‰›¨Ğ8 ŠûÙ1HøRCRITICALZ
+CODE_SMELL
+s	java:S125j"<This block of commented-out lines of code should be removed.(ú„´›øÿÿÿÿ8 ŠûÙ1H‘RMAJORZ
+CODE_SMELL
+‘
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(…äí‡ÿÿÿÿÿ8 ŠûÙ1HœRMINORZ
+CODE_SMELL
+¥
+java:S1319P"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(±îÁ‹ûÿÿÿÿ8 ŠûÙ1H¦RMINORZ
+CODE_SMELL
+h
+java:S2864°"4Iterate over the "entrySet" instead of the "keySet".(ê¾áÏ8 ŠûÙ1H–RMAJORZ
+CODE_SMELL
+O
+java:S1643¦"Use a StringBuilder instead.(º””8 ŠûÙ1H©RMINORZ
+CODE_SMELL
+s	java:S125u"<This block of commented-out lines of code should be removed.(¯ÍÔïùÿÿÿÿ8 ŠûÙ1H’RMAJORZ
+CODE_SMELL
+P
+java:S1643‹"Use a StringBuilder instead.(´ƒÛÅ8 ŠûÙ1H¨RMINORZ
+CODE_SMELL
+t	java:S125Š"<This block of commented-out lines of code should be removed.(ú„´›øÿÿÿÿ8 ŠûÙ1H”RMAJORZ
+CODE_SMELL
+l	java:S106Æ"9Replace this use of System.out or System.err by a logger.(”•ª¢8 ŠûÙ1H˜RMAJORZ
+CODE_SMELL
+q	java:S106Ç"9Replace this use of System.out or System.err by a logger.(Ä¤‹€ûÿÿÿÿ8 ŠûÙ1H™RMAJORZ
+CODE_SMELL
+P
+java:S1643µ"Use a StringBuilder instead.(´ƒÛÅ8 ŠûÙ1HªRMINORZ
+CODE_SMELL
+g
+java:S2864h"4Iterate over the "entrySet" instead of the "keySet".(™Ô ³8 ŠûÙ1HRMAJORZ
+CODE_SMELL
+s
+java:S1117 ":Rename "author" which hides the field declared at line 13.(Ãµ¥ıüÿÿÿÿ8 ŠûÙ1H•RMAJORZ
+CODE_SMELL
+Œ
+java:S2293¢"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼ÉÜX8 ŠûÙ1H RMINORZ
+CODE_SMELL
+¥
+java:S1319D"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ûÁ‘Ùıÿÿÿÿ8 ŠûÙ1H¤RMINORZ
+CODE_SMELL
+‹
+java:S2293R"YReplace the type specification in this constructor call with the diamond operator ("<>").(€Ç_8 ŠûÙ1HRMINORZ
+CODE_SMELL
+Œ
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(†ÉíŞ8óÌşÙ1HËRMINORZ
+CODE_SMELL

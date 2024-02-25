@@ -1,0 +1,27 @@
+package com.ganesh.practice;
+
+import java.util.Scanner;
+
+public class FibonacciSeries {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter N :");
+		int n = sc.nextInt();
+		int n1 = 0, n2 = 1;
+		int temp=0;
+		for (int i = 0; i < n; i++) {
+			if (i == 0) {
+				System.out.println(n1);
+			} else if (i == 1) {
+				System.out.println(n2);
+			} else {
+				temp=n1;
+				n1 = n2;
+				n2 = temp + n2;
+				System.out.println(n2);
+			}
+
+		}
+	}
+}

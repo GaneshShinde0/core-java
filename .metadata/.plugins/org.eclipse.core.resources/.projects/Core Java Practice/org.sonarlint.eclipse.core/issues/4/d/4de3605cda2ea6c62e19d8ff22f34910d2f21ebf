@@ -1,0 +1,19 @@
+
+…
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8‡ÉªÙ1H¸RMAJORZ
+CODE_SMELL
+t
+java:S1126"AReplace this if-then-else statement by a single return statement.(Öœº«8‡ÉªÙ1H·RMINORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(Ôß¸¸úÿÿÿÿ8‡ÉªÙ1H½RMAJORZ
+CODE_SMELL
+{
+java:S1659
+"CDeclare "digits" and all following declarations on a separate line.(ÓÒâÿÿÿÿÿ8‡ÉªÙ1H©RMINORZ
+CODE_SMELL
+v
+java:S1612">Replace this lambda with method reference 'this::isArmstrong'.(™àÁÑúÿÿÿÿ8‡ÉªÙ1H¹RMINORZ
+CODE_SMELL
+t
+java:S1612"<Replace this lambda with method reference 'Long::parseLong'.(™àÁÑúÿÿÿÿ8‡ÉªÙ1H»RMINORZ
+CODE_SMELL

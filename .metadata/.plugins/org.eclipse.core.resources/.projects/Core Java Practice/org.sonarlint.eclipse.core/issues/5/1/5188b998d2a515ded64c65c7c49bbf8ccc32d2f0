@@ -1,0 +1,29 @@
+
+p	java:S106H"9Replace this use of System.out or System.err by a logger.(”ξΤύόÿÿÿÿ8λίοΩ1HªRMAJORZ
+CODE_SMELL
+m
+java:S1161":Add the "@Override" annotation above this method signature(άΩή²8λίοΩ1H RMAJORZ
+CODE_SMELL
+O
+java:S16437"Use a StringBuilder instead.(ΐ™Ϊ’8λίοΩ1H¶RMINORZ
+CODE_SMELL
+p	java:S106F"9Replace this use of System.out or System.err by a logger.(”ξΤύόÿÿÿÿ8λίοΩ1H©RMAJORZ
+CODE_SMELL
+v
+java:S1172"CRemove these unused method parameters "startElement", "endElement".(άΩή²8λίοΩ1HRMAJORZ
+CODE_SMELL
+m
+java:S11613":Add the "@Override" annotation above this method signature(άΩή²8λίοΩ1HΆRMAJORZ
+CODE_SMELL
+b
+java:S1197?"*Move the array designators [] to the type.(ωοΎÿÿÿÿÿ8λίοΩ1H¦RMINORZ
+CODE_SMELL
+O
+java:S1643"Use a StringBuilder instead.(ΐ™Ϊ’8λίοΩ1HµRMINORZ
+CODE_SMELL
+‘
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘™ψ€όÿÿÿÿ8λίοΩ1H³RMINORZ
+CODE_SMELL
+¤
+java:S1130?"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ωοΎÿÿÿÿÿ8λίοΩ1H¤RMINORZ
+CODE_SMELL

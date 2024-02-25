@@ -1,0 +1,49 @@
+
+‘
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÖŸ‰üÿÿÿÿ8ƒÒºÙ1H¥	RMINORZ
+CODE_SMELL
+k	java:S106f"9Replace this use of System.out or System.err by a logger.(µ¹üÕ8ƒÒºÙ1Hœ	RMAJORZ
+CODE_SMELL
+y
+java:S1126^"AReplace this if-then-else statement by a single return statement.(òš©²ùÿÿÿÿ8ƒÒºÙ1H˜	RMINORZ
+CODE_SMELL
+‘
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(úüØåúÿÿÿÿ8ƒÒºÙ1H	RMINORZ
+CODE_SMELL
+t
+java:S1126U"AReplace this if-then-else statement by a single return statement.(ö“àÀ8ƒÒºÙ1H™	RMINORZ
+CODE_SMELL
+ˆ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ø‡ÑÛ8ƒÒºÙ1HŠ	RCRITICALZ
+CODE_SMELL
+b
+java:S3740]"/Provide the parametrized type for this generic.(ğ¨Š°8ƒÒºÙ1H‰	RMAJORZ
+CODE_SMELL
+Œ
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ùƒ¶8ƒÒºÙ1H£	RMINORZ
+CODE_SMELL
+‘
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(úüØåúÿÿÿÿ8ƒÒºÙ1H¡	RMINORZ
+CODE_SMELL
+k	java:S106i"9Replace this use of System.out or System.err by a logger.(”•ª¢8ƒÒºÙ1H›	RMAJORZ
+CODE_SMELL
+`
+java:S1481"(Remove this unused "ans" local variable.(ş‚ç›úÿÿÿÿ8ƒÒºÙ1H–	RMINORZ
+CODE_SMELL
+p	java:S106j"9Replace this use of System.out or System.err by a logger.(—É³óøÿÿÿÿ8ƒÒºÙ1Hš	RMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(úüØåúÿÿÿÿ8ƒÒºÙ1HŸ	RMINORZ
+CODE_SMELL
+g
+java:S3740\"/Provide the parametrized type for this generic.(Ë¡¿üÿÿÿÿ8Ê÷ÃÙ1H
+RMAJORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ê÷ÃÙ1H
+RMINORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ê÷ÃÙ1H‘
+RMINORZ
+CODE_SMELL

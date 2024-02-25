@@ -1,0 +1,17 @@
+
+h
+java:S6035"0Replace this alternation with a character class.(Š¨ªïøÿÿÿÿ8ãÆ§Ù1HÓRMAJORZ
+CODE_SMELL
+ˆ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ñà°×8ãÆ§Ù1HÔRCRITICALZ
+CODE_SMELL
+Y
+java:S1481"&Remove this unused "j" local variable.(èê»8ãÆ§Ù1HâRMINORZ
+CODE_SMELL
+s	java:S125@"<This block of commented-out lines of code should be removed.(×‡üÿÿÿÿ8ãÆ§Ù1HãRMAJORZ
+CODE_SMELL
+n	java:S125E"<This block of commented-out lines of code should be removed.(ÉÍ¿8ãÆ§Ù1HäRMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø¾×Îşÿÿÿÿ8ãÆ§Ù1H¤RMINORZ
+CODE_SMELL
