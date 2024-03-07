@@ -43,6 +43,7 @@ intellijoutput/
 */.metadata/
 */.idea/
 *\.metadata\*
+.metadata/
 # Logs and databases
 *.log
 *.sqlite
