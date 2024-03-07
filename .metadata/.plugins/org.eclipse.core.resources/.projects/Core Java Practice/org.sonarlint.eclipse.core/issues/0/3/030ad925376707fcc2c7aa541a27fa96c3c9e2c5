@@ -1,17 +1,0 @@
-
-c	java:S106"9Replace this use of System.out or System.err by a logger.(Î±äH 
-RMAJORZ
-CODE_SMELL
-Q
-java:S1659" Declare "n2" on a separate line.(éóŒÚúÿÿÿÿHœ
-RMINORZ
-CODE_SMELL
-d	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÿî­HŸ
-RMAJORZ
-CODE_SMELL
-i	java:S106	"9Replace this use of System.out or System.err by a logger.(¹Þ«ÒùÿÿÿÿHž
-RMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(‹ÿî­8ÕÍé‘Ù1H§
-RMAJORZ
-CODE_SMELL
