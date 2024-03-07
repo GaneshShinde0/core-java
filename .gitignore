@@ -42,7 +42,7 @@ bin/
 intellijoutput/
 */.metadata/
 */.idea/
-
+*\.metadata\*
 # Logs and databases
 *.log
 *.sqlite
