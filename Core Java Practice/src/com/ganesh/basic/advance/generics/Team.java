@@ -3,27 +3,43 @@ package com.ganesh.basic.advance.generics;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BaseballTeam {
+record Affiliation(String name, String type, String countryCode){
+    @Override
+    public String toString() {
+        return name + " (" + type +" in " + countryCode + " )";
+    }
+}
+public class Team<T extends Player, S> {
 
     private final String teamName;
-    private final List<BaseballPlayer> teamMembers = new ArrayList<>();
+    private final List<T> teamMembers = new ArrayList<>();
     private int totalWins = 0;
     private int totalLosses = 0;
     private int totalTies = 0;
 
-    public BaseballTeam(String teamName) {
+    private S affiliation;
+
+    public Team(String teamName) {
         this.teamName = teamName;
     }
 
-    public void addTeamMember(BaseballPlayer player) {
-        if (!teamMembers.contains(player)) {
-            teamMembers.add(player);
+    public Team(String teamName, S affiliation) {
+        this.teamName = teamName;
+        this.affiliation = affiliation;
+    }
+
+    public void addTeamMember(T t) {
+        if (!teamMembers.contains(t)) {
+            teamMembers.add(t);
         }
     }
 
     public void listTeamMembers() {
-        System.out.println(teamName + " Roster: ");
-        System.out.println(teamMembers);
+        System.out.println(teamName + "Roster: ");
+        System.out.println((affiliation == null?"":" AFFILIATION: "+affiliation));
+        for (T t: teamMembers){
+            System.out.println(t.name());
+        }
     }
 
     public int ranking() {
@@ -40,6 +56,7 @@ public class BaseballTeam {
             message = "tied";
         } else {
             totalLosses++;
+            message = "loss";
         }
         return message;
     }
