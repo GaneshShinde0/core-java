@@ -5,47 +5,50 @@ import java.util.List;
 
 public class Meal {
 
-    private double price =5.0;
-    private Burger burger;
-    private Item drink;
-    private Item side;
+    private final double price = 5.0;
+    private final Burger burger;
+    private final Item drink;
+    private final Item side;
 
     private double total;
 
-    private double conversionRate;
+    private final double conversionRate;
 
-    public Meal(){
+    public Meal() {
         this(1);
 
     }
 
-    public Meal(double conversionRate){
-        this.conversionRate=conversionRate;
+    public Meal(double conversionRate) {
+        this.conversionRate = conversionRate;
         burger = new Burger("regular");
-        drink = new Item("coke","drink",1.5);
+        drink = new Item("coke", "drink", 1.5);
         System.out.println(drink.name);
-        side = new Item("fries","side",2.0);
+        side = new Item("fries", "side", 2.0);
     }
 
-    public double getTotal(){
-        double total = burger.getPrice()+drink.price+side.price;
-        return Item.getPrice(total,conversionRate);
+    public double getTotal() {
+        double total = burger.getPrice() + drink.price + side.price;
+        return Item.getPrice(total, conversionRate);
     }
+
     @Override
-    public String toString(){
-        return "%s%n%s%n%s%n%26s$%.2f".formatted(burger, drink, side,"Total Due: ",getTotal());
+    public String toString() {
+        return "%s%n%s%n%s%n%26s$%.2f".formatted(burger, drink, side, "Total Due: ", getTotal());
     }
 
-    public void addToppings(String... selectedToppings){
+    public void addToppings(String... selectedToppings) {
         burger.addToppings(selectedToppings);
     }
+
     private class Item {
 
-        private String name;
-        private String type;
-        private double price;
-        public Item(String name, String type){
-            this(name,type,type.equals("burger")?Meal.this.price:0);
+        private final String name;
+        private final String type;
+        private final double price;
+
+        public Item(String name, String type) {
+            this(name, type, type.equals("burger") ? Meal.this.price : 0);
         }
 
         public Item(String name, String type, double price) {
@@ -54,61 +57,64 @@ public class Meal {
             this.price = price;
         }
 
-        @Override
-        public String toString(){
-            return "%10s%15s $%.2f".formatted(type,name,
-                    getPrice(price,conversionRate));
+        private static double getPrice(double price, double rate) {
+            return price * rate;
         }
-        private static double getPrice(double price, double rate){
-            return price*rate;
+
+        @Override
+        public String toString() {
+            return "%10s%15s $%.2f".formatted(type, name, getPrice(price, conversionRate));
         }
     }
 
-    private class Burger extends Item{
+    private class Burger extends Item {
 
-        // Implicitly static from Java 17
-        private enum Extra {AVOCADO, BACON, CHEESE, KETCHUP, MAYO, MUSTARD, PICKLES;
-            private double getPrice(){
-                return switch(this){
-                    case AVOCADO -> 1.0;
-                    case BACON, CHEESE -> 1.5;
-                    default ->0;
-                };
-            }
-        };
-        private List<Item> toppings = new ArrayList<>();
+        private final List<Item> toppings = new ArrayList<>();
 
+        Burger(String name) {
+            super(name, "burger", 5.0);
+        }
 
-        public double getPrice(){
+        public double getPrice() {
             double total = super.price; // Meals price
-            for(Item topping: toppings){
+            for (Item topping : toppings) {
                 total += topping.price;
             }
             return total;
         }
-        Burger(String name){
-            super(name, "burger",5.0);
-        }
 
-        private void addToppings(String... selectedToppings){
-            for(String selectedTopping : selectedToppings){
+        private void addToppings(String... selectedToppings) {
+            for (String selectedTopping : selectedToppings) {
                 try {
                     Extra topping = Extra.valueOf(selectedTopping.toUpperCase());
                     toppings.add(new Item(topping.name(), "TOPPING", topping.getPrice()));
-                } catch(IllegalArgumentException e){
-                    System.out.println("No Topping found for "+selectedTopping);
+                } catch (IllegalArgumentException e) {
+                    System.out.println("No Topping found for " + selectedTopping);
                 }
             }
         }
 
         @Override
-        public String toString(){
+        public String toString() {
             StringBuilder itemized = new StringBuilder(super.toString());
-            for(Item topping: toppings){
+            for (Item topping : toppings) {
                 itemized.append("\n");
                 itemized.append(topping);
             }
             return itemized.toString();
+        }
+
+        // Implicitly static from Java 17
+        private enum Extra {
+            AVOCADO, BACON, CHEESE, KETCHUP, MAYO, MUSTARD, PICKLES;
+
+            private double getPrice() {
+                return switch (this) {
+                    case AVOCADO -> 1.0;
+                    case BACON, CHEESE -> 1.5;
+                    default -> 0;
+                };
+            }
         }
 
 
