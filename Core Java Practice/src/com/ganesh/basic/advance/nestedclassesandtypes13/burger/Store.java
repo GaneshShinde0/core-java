@@ -4,9 +4,10 @@ public class Store {
     public static void main(String[] args) {
 
         Meal regularMeal = new Meal();
+        regularMeal.addToppings("Ketchup","Mayo","Bacon");
         System.out.println(regularMeal);
 
         Meal AUregularMeal = new Meal(1.2d);
-        System.out.println(regularMeal);
+        System.out.println(AUregularMeal);
     }
 }
