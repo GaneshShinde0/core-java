@@ -145,5 +145,5 @@ The expression should return a value, if the associated interface's method retur
 - This instance is declared outside the method reference.
 - E.g. System.out::println
 - Bounded Receiver is an instance derived from the enclosing code, used in the lambda expression, on which the method will be invoked.
-- 
+
 
