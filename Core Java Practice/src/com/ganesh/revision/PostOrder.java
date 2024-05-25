@@ -13,7 +13,7 @@ class Node {
     }
 }
 
-class PostOrder {
+class TreeOrdering {
 
     public static void postOrder(Node root) {
         if(root==null){
@@ -22,6 +22,14 @@ class PostOrder {
         postOrder(root.left);
         postOrder(root.right);
         System.out.print(root.data+" ");
+    }
+    public static void inOrder(Node root) {
+        if (root==null){
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.data+" ");
+        inOrder(root.right);
     }
 
 	public static Node insert(Node root, int data) {
