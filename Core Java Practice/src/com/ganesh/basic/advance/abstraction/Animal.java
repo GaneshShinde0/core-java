@@ -5,7 +5,7 @@ Why use a abstract class?
 - You may never need to use an abstract class in your design, but there are some good arguments for using them.
 - An abstract class in your hierarchy forces the designers of subclasses, to think about, and create unique and targeted implementations, for the abstracted methods.
 - It may not always make sense to provide a default, or inherited implementation, of a particular method.
-- An abstract class can't be instantiated, so if you're using abstract classes to design a framework for implementation, this is definitely an advatage.
+- An abstract class can't be instantiated, so if you're using abstract classes to design a framework for implementation, this is definitely an advantage.
  */
 abstract class Mammal extends Animal{
 

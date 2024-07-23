@@ -71,7 +71,9 @@ public class Main {
         BMinusA.removeAll(cardsSetA);
         System.out.println(BMinusA.toString());
         AMinusB.addAll(BMinusA);
-        System.out.println(AMinusB.toString());
+
+        Integer x=1;
+
 
     }
 }

@@ -1,28 +1,14 @@
+package com.ganesh.revision;
+
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+import java.util.Stack;
+import java.util.stream.IntStream;
 
 class Result {
 
-    /*
-     * Complete the 'isBalanced' function below.
-     *
-     * The function is expected to return a STRING.
-     * The function accepts STRING s as parameter.
-     */
-
     public static String isBalanced(String s) {
-
-        Stack < Character > stack = new Stack < > ();
-        for (Character c: s.toCharArray()) {
+        Stack<Character> stack = new Stack<>();
+        for (Character c : s.toCharArray()) {
             if (c == '{' || c == '[' || c == '(') {
                 stack.push(c);
             }
@@ -30,7 +16,6 @@ class Result {
                 if (stack.isEmpty()) {
                     return "NO";
                 }
-
                 if ((stack.peek() == '{' && c == '}') || (stack.peek() == '(' && c == ')') || (stack.peek() == '[' && c == ']')) {
                     stack.pop();
                 } else {
@@ -38,14 +23,8 @@ class Result {
                 }
             }
         }
-        if (stack.isEmpty()) {
-            return "YES";
-        } else {
-            return "NO";
-        }
-
+        return stack.isEmpty() ? "YES" : "NO";
     }
-
 }
 
 public class BracketBalancer {
@@ -55,12 +34,10 @@ public class BracketBalancer {
 
         int t = Integer.parseInt(bufferedReader.readLine().trim());
 
-        IntStream.range(0, t).forEach(tItr - > {
+        IntStream.range(0, t).forEach(i -> {
             try {
                 String s = bufferedReader.readLine();
-
                 String result = Result.isBalanced(s);
-
                 bufferedWriter.write(result);
                 bufferedWriter.newLine();
             } catch (IOException ex) {

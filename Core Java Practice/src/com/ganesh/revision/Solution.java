@@ -1,14 +1,7 @@
+package com.ganesh.revision;
+
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+import java.util.Calendar;
 
 class CalendarDayOfMonth {
 
@@ -23,21 +16,21 @@ class CalendarDayOfMonth {
      */
 
     public static String findDay(int month, int day, int year) {
-    Calendar c = Calendar.getInstance(); // Get a Calendar instance
+        Calendar c = Calendar.getInstance(); // Get a Calendar instance
 
-    // Set the year, month, and day
-    c.set(Calendar.YEAR, year);
-    c.set(Calendar.MONTH, month - 1); // Months are 0-based in Calendar class, so subtract 1
-    c.set(Calendar.DAY_OF_MONTH, day);
+        // Set the year, month, and day
+        c.set(Calendar.YEAR, year);
+        c.set(Calendar.MONTH, month - 1); // Months are 0-based in Calendar class, so subtract 1
+        c.set(Calendar.DAY_OF_MONTH, day);
 
-    // Get the day of the week (Sunday = 1, Monday = 2, ..., Saturday = 7)
-    int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
+        // Get the day of the week (Sunday = 1, Monday = 2, ..., Saturday = 7)
+        int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
 
-    // Map the day of the week to the corresponding string representation
-    String[] days = {"", "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
-    
-    return days[dayOfWeek];
-}
+        // Map the day of the week to the corresponding string representation
+        String[] days = {"", "SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
+
+        return days[dayOfWeek];
+    }
 }
 
 public class Solution {
@@ -53,7 +46,7 @@ public class Solution {
 
         int year = Integer.parseInt(firstMultipleInput[2]);
 
-        String res = Result.findDay(month, day, year);
+        String res = CalendarDayOfMonth.findDay(month, day, year);
 
         bufferedWriter.write(res);
         bufferedWriter.newLine();
